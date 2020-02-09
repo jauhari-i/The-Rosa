@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro:400,900&display=swap");
+
 /*Global styles*/
 *,
 *::before,
@@ -479,9 +480,11 @@ footer {
   section {
     padding: 7.9rem;
   }
+
   .menu-toggle {
     display: none;
   }
+
   .nav {
     justify-content: space-between;
   }
@@ -590,6 +593,7 @@ footer {
   0% {
     transform: translateY(4rem);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0);
@@ -600,6 +604,7 @@ footer {
   0% {
     transform: scale(2);
   }
+
   100% {
     opacity: 1;
     transform: scale(1);
@@ -610,6 +615,7 @@ footer {
   0% {
     width: 0;
   }
+
   100% {
     opacity: 1;
     width: 100%;
@@ -620,6 +626,7 @@ footer {
   0% {
     transform: translateY(-1rem);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0);
@@ -630,6 +637,7 @@ footer {
   0% {
     transform: rotate(0);
   }
+
   100% {
     opacity: 1;
     transform: rotate(-360);
@@ -640,9 +648,11 @@ footer {
   0% {
     opacity: 0;
   }
+
   50% {
     opacity: 1;
   }
+
   100% {
     opacity: 0;
     transform: translateY(-1rem);
